@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string.h>
+#pragma once
 #include "AbstractFactory.h"
 #include "ItemFactory.h"
 #include "Type.h"

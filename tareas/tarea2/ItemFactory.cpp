@@ -15,9 +15,9 @@ AbstractFactory* ItemFactory::create(Type type) {
         return Netbook::create();
     }else if(type = Type::TABLET) {
         return Tablet::create();
-    }else{
+    }/*else{
         return "Not found";
-    }
+    }*/
     
 }
 

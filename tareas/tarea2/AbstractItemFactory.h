@@ -5,6 +5,7 @@
 
 using namespace std;
 
+#pragma once
 class AbstractItemFactory {
     
     virtual AbstractFactory* create(Type type) = 0;
