@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string.h>
+#include "AbstractItemFactory.h"
 
 using namespace std;
 

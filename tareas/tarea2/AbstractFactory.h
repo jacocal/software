@@ -5,6 +5,6 @@ using namespace std;
 class AbstractFactory {
     
     public:
-        virtual string specs() = 0;
+        virtual string name() = 0;
     
 };

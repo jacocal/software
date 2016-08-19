@@ -9,4 +9,4 @@ class AbstractItemFactory {
     
     virtual AbstractFactory* create(Type type) = 0;
     
-}
+};
