@@ -1,0 +1,1 @@
+enum class ComputerType {DESKTOP, LAPTOP, NETBOOK, TABLET};

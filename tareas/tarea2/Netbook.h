@@ -4,7 +4,7 @@
 
 using namespace std;
 
-class Netbook : public AbstractFactory {
+class Netbook : public Clon<AbstractFactory, Netbook> {
     
     
     private:

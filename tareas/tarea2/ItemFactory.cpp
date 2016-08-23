@@ -1,9 +1,5 @@
 #include <string.h>
 #include "ItemFactory.h"
-#include "Desktop.h"
-#include "Tablet.h"
-#include "Laptop.h"
-#include "Netbook.h"
 
 AbstractFactory* ItemFactory::create(Type type) {
     

@@ -1,16 +1,10 @@
 #include <iostream>
 #include <string.h>
-#pragma once
-#include "AbstractFactory.h"
 #include "ItemFactory.h"
-#include "Type.h"
-#include "Desktop.h"
-#include "Laptop.h"
-#include "Netbook.h"
-#include "Tablet.h"
 
 using namespace std;
 
+#pragma once
 int main() {
     
     int option;

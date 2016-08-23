@@ -2,6 +2,11 @@
 #include <string.h>
 #include "AbstractItemFactory.h"
 #include "AbstractFactory.h"
+#include "Type.h"
+#include "Desktop.h"
+#include "Tablet.h"
+#include "Laptop.h"
+#include "Netbook.h"
 
 using namespace std;
 
