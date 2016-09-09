@@ -1,0 +1,1 @@
+enum class ComputerType {TRESLECHES, SACHER, IMPOSIBLE};
