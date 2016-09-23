@@ -1,0 +1,9 @@
+-------------- RESULTS --------------
+1.- Bubble Sort ------------------- 35170863 micros | 35170ms | 35s
+2.- Insertion Sort ----------------- 45731371 micros | 45731ms | 45s
+3.- Merge Sort -------------------- 4640786 micros | 4640ms | 4s
+4.- Selection Sort ---------------- 38937403 micros | 38937ms | 38s
+5.- Heap Sort -------------------- 19448 micros | 19ms | 0s
+6.- Quick Sort ------------------- 107505468 micros | 107505ms | 107s
+
+
