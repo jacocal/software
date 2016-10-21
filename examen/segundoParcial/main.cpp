@@ -57,7 +57,7 @@ int main() {
         televisaObservable.registerNoticias(candidato->getNoticia());
         tvaObservable.registerObserver(&cnnObserver);
         tvaObservable.registerNoticias(candidato->getNoticia());
-    }elseif(candidato->getIdentifier() == 2 | candidato->getIdentifier() == 3){
+    }else if(candidato->getIdentifier() == 2 | candidato->getIdentifier() == 3){
         mvsObservable.registerObserver(&mvsObserver);
         mvsObservable.registerNoticias(candidato->getNoticia());
         radioObservable.registerObserver(&radioObserver);
@@ -67,7 +67,7 @@ int main() {
         tvaObservable.registerObserver(&cnnObserver);
         tvaObservable.registerNoticias(candidato->getNoticia());
     }else{
-        break;
+        
     }
     
     return 0;
@@ -95,7 +95,7 @@ Persona* menu(int opcion, Persona* candidato) {
             cout << "No existe" << endl;
             break;
     }
-    cout << "Que te gustaria publicar: "
+    cout << "Que te gustaria publicar: " << endl;
     cin >> noticia;
     candidato->publicar(noticia);
     return candidato;
